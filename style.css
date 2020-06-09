@@ -1,0 +1,54 @@
+
+h1{
+
+    color:pink;
+}
+body{
+    background-color: burlywood;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: normal;
+
+    line-height: 1.5rem;
+    margin: 30px;
+}
+    .block{
+        float:left;
+        width: 33.3%;
+        border:2px solid #ccc;
+        padding: 10px;
+        box-sizing: border-box ;
+    }
+    
+
+ @media only screen and (max-width: 600px)
+.container{ 
+    width: 50%;
+    margin: auto;
+    
+}
+.box-1{
+    background-color: rgb(11, 12, 12);
+    color: rosybrown;
+    border: 5px white solid;
+    border-style: groove;
+    padding: 30px;
+    margin: 5em;
+}
+.box-1 h1{
+    font-family: italic;
+    font-weight:800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1.0;
+}
+.box-2{
+    background-color: lawngreen;
+    border: 5px #ccc solid;
+    padding: 10px;
+    word-spacing: 1.02;
+    font-style: oblique;
+    margin-top: 0px;
+}
+
